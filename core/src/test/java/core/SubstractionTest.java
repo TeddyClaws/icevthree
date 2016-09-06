@@ -8,7 +8,7 @@ public class SubstractionTest {
 
     @Test
     public void testCalculate() throws DivisonByZeroException {
-        assertEquals(0, DivisionMachine.getInstance().calculate(2, 2), 0);
+        assertEquals(0, SubstractionMachine.getInstance().calculate(2, 2), 0);
     }
 
 }
